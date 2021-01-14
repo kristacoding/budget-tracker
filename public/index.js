@@ -68,12 +68,14 @@ function populateChart() {
     type: 'line',
       data: {
         labels,
-        datasets: [{
+        datasets: [
+          {
             label: "Total Over Time",
             fill: true,
             backgroundColor: "#6666ff",
             data
-        }]
+        }
+      ]
     }
   });
 }
