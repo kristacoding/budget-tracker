@@ -45,7 +45,7 @@
   <script src="db.js"></script>
   <script src="index.js"></script>
   <link rel="manifest" href="manifest.webmanifest">
-  <script>
+     <script>
     if ("serviceWorker" in navigator) {
       window.addEventListener("load", () => {
         navigator.serviceWorker.register("static/service-worker.js", {scope:"/"}).then(reg => {
